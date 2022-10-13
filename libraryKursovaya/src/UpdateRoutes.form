@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="UpdateRoutes">
+  <grid id="27dc6" binding="updRoutesPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <toolbar id="79090">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="1" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <orientation value="1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="6115" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <text value="Выберите строку для изменения/удаления"/>
+            </properties>
+          </component>
+          <component id="f279f" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+            <constraints/>
+            <properties/>
+          </component>
+          <component id="a6cfe" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Название маршрута"/>
+            </properties>
+          </component>
+          <component id="d8244" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+            <constraints/>
+            <properties/>
+          </component>
+          <toolbar id="67641">
+            <constraints/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="5a7e7" class="javax.swing.JButton" binding="updBtn">
+                <constraints/>
+                <properties>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="2"/>
+                  <text value="Изменить"/>
+                </properties>
+              </component>
+              <component id="542ea" class="javax.swing.JButton" binding="delete">
+                <constraints/>
+                <properties>
+                  <hideActionText value="false"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="  Удалить "/>
+                </properties>
+              </component>
+            </children>
+          </toolbar>
+        </children>
+      </toolbar>
+    </children>
+  </grid>
+</form>
